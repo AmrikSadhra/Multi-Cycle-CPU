@@ -1,0 +1,39 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/arch_C_tb_isim_beh.exe" -prj "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/arch_C_tb_beh.prj" "arch_C_tb" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/D_FF.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/DigEnd.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/tri_state_buffer.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/register.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/register_bank.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/DATA_PATH_C.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/top_level.vhd" into library work
+Parsing VHDL file "C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/arch_C_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package digeng
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity D_FF [d_ff_default]
+Compiling architecture behavioral of entity register_block [\register_block(16)\]
+Compiling architecture behavioral of entity DATA_PATH_C [\DATA_PATH_C(16)\]
+Compiling architecture behavioral of entity ALU [\ALU(16)\]
+Compiling architecture behavioral of entity tri_state_buffer [\tri_state_buffer(16)\]
+Compiling architecture behavioral of entity decoder [\decoder(16)\]
+Compiling architecture behavioral of entity register_bank [\register_bank(16,4,16)\]
+Compiling architecture behavioral of entity top_level [\top_level(16,16,4)\]
+Compiling architecture behavior of entity arch_c_tb
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable C:/Users/Amrik/Google Drive/Work/Year 2/Computer Architectures/Data Paths/Lab2ArchC/arch_C_tb_isim_beh.exe
+Fuse Memory Usage: 37100 KB
+Fuse CPU Usage: 499 ms

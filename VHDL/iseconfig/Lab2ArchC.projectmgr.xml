@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab2ArchC" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DATA_PATH_C - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|DATA_PATH_C.vhd</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Desktop|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Desktop|CPUAct|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/DATA_PATH_C - DATA_PATH_C - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/DATA_PATH_C - DATA_PATH_C - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/DATA_PATH_C - DATA_PATH_C - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|top_level.vhd/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral C:|Users|as2010|CompArch|Lab2ArchC|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|ISE Projects|Year 2|Computer Arch|CPUAct|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|Desktop|CPUAct|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|as2010|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|as2010|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/INSTR_REGISTER - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|as2010|CPUAct|top_level.vhd/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|as2010|CPUAct|top_level.vhd/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral H:|as2010|CPUAct|top_level.vhd/output_Reg - register_block - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top_level - Behavioral (H:/as2010/CPUAct/top_level.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>top_level - Behavioral (H:/as2010/CPUAct/top_level.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000147000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004200000001000000000000002400000001000000000000006600000001000000000000007b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000010000000000000000000000000000000000000147000000010001000100000000000000000000000064ffffffff000000810000000000000001000001470000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|CPU_TEST.vhd/uut - top_level - Behavioral/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior C:|Users|as2010|CompArch|Lab2ArchC|CPU_TEST.vhd/uut - top_level - Behavioral/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior D:|ISE Projects|Year 2|Computer Arch|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|Desktop|CPUAct|CPU_TEST.vhd</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|Desktop|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|Desktop|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|Desktop|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|Desktop|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/INSTR_REGISTER - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/CONTROL_UNIT - CONTROL_UNIT - Behavioral/SEQUENCER - SEQUENCER - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/DUAL_PORT_MEM - DP_MEM - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_A - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_Aout - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_B - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/PROCESSING_UNIT - PROCESSING_UNIT - Behavioral/reg_MDR - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/CPU_TEST - behavior H:|as2010|CPUAct|CPU_TEST.vhd/uut - top_level - Behavioral/output_Reg - register_block - Behavioral</ClosedNode>
+         <ClosedNode>/arch_C_tb - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|CPU|arch_C_tb.vhd</ClosedNode>
+         <ClosedNode>/arch_C_tb - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|arch_C_tb.vhd</ClosedNode>
+         <ClosedNode>/arch_C_tb - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|arch_C_tb.vhd/uut - top_level - Behavioral/DATA_PATH_C - DATA_PATH_C - Behavioral</ClosedNode>
+         <ClosedNode>/arch_C_tb - behavior C:|Users|Amrik|Google Drive|Work|Year 2|Computer Architectures|Data Paths|Lab2ArchC|arch_C_tb.vhd/uut - top_level - Behavioral/REG_BANK - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/arch_C_tb - behavior C:|Users|as2010|CompArch|Lab2ArchC|arch_C_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CPU_TEST - behavior (H:/as2010/CPUAct/CPU_TEST.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000209000000020000000000000000000000000200000064ffffffff000000810000000300000002000002090000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>CPU_TEST - behavior (H:/as2010/CPUAct/CPU_TEST.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Compile HDL Simulation Libraries</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Compile HDL Simulation Libraries</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000017b0000017b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000169000000010000000100000000000000000000000064ffffffff000000810000000000000001000001690000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000169000000010000000100000000000000000000000064ffffffff000000810000000000000001000001690000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

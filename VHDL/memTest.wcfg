@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_test" />
+            <top_module name="digeng" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/cpu_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/pb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pb</obj_property>
+      <obj_property name="ObjectShortName">pb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/led_bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/CONTROL_UNIT/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/CONTROL_UNIT/FSM/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/CONTROL_UNIT/mia" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mia[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mia[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider530" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[127:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[127:0]</obj_property>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[127]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">memory[127]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[126]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">memory[126]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[125]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">memory[125]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[124]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">memory[124]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[123]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">memory[123]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[122]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">memory[122]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[121]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">memory[121]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[120]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">memory[120]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[119]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">memory[119]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[118]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">memory[118]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[117]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">memory[117]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[116]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">memory[116]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[115]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">memory[115]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[114]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">memory[114]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[113]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">memory[113]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[112]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">memory[112]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[111]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">memory[111]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[110]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">memory[110]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[109]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">memory[109]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[108]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">memory[108]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[107]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">memory[107]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[106]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">memory[106]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[105]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">memory[105]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[104]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">memory[104]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[103]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">memory[103]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[102]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">memory[102]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[101]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">memory[101]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[100]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">memory[100]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[99]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">memory[99]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[98]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">memory[98]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[97]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">memory[97]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[96]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">memory[96]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[95]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">memory[95]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[94]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">memory[94]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[93]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">memory[93]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[92]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">memory[92]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[91]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">memory[91]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[90]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">memory[90]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[89]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">memory[89]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[88]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">memory[88]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[87]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">memory[87]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[86]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">memory[86]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[85]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">memory[85]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[84]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">memory[84]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[83]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">memory[83]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[82]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">memory[82]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[81]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">memory[81]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[80]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">memory[80]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[79]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">memory[79]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[78]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">memory[78]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[77]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">memory[77]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[76]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">memory[76]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[75]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">memory[75]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[74]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">memory[74]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[73]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">memory[73]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[72]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">memory[72]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[71]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">memory[71]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[70]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">memory[70]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[69]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">memory[69]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[68]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">memory[68]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[67]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">memory[67]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[66]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">memory[66]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[65]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">memory[65]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[64]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">memory[64]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">memory[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">memory[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">memory[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">memory[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">memory[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">memory[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">memory[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">memory[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">memory[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">memory[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">memory[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">memory[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">memory[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">memory[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">memory[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">memory[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">memory[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">memory[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">memory[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">memory[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">memory[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">memory[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">memory[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">memory[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">memory[39]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">memory[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">memory[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">memory[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">memory[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">memory[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">memory[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">memory[32]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">memory[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">memory[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">memory[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">memory[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">memory[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">memory[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">memory[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">memory[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">memory[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">memory[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">memory[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">memory[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">memory[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">memory[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">memory[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">memory[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">memory[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">memory[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">memory[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">memory[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">memory[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">memory[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">memory[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">memory[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">memory[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">memory[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">memory[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">memory[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">memory[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">memory[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">memory[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/memory[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/REG_BANK/registertotriarrays" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registertotriarrays[511:0]</obj_property>
+      <obj_property name="ObjectShortName">registertotriarrays[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/MMU/dmem_write_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_write_address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_write_address[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/MMU/dmem_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/MMU/dmem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_out[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/MMU/dmem_wen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_wen</obj_property>
+      <obj_property name="ObjectShortName">dmem_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/imm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/ALU/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/ALU/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/ALU/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/s2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s2</obj_property>
+      <obj_property name="ObjectShortName">s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/s3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s3</obj_property>
+      <obj_property name="ObjectShortName">s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/PROCESSING_UNIT/s4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s4</obj_property>
+      <obj_property name="ObjectShortName">s4</obj_property>
+   </wvobject>
+</wave_config>

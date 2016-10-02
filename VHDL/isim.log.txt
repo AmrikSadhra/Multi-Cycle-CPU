@@ -1,0 +1,181 @@
+ISim log file
+Running: D:\ISE Projects\Year 2\Computer Arch\CPUAct\CPU_TEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/ALU/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/DUAL_PORT_MEM/Internal_RAM/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoder1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /cpu_test/uut/PROCESSING_UNIT/REG_BANK/decoderIn/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us

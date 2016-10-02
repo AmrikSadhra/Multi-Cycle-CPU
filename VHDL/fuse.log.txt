@@ -1,0 +1,56 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST_isim_beh.exe" -prj "D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST_beh.prj" "work.CPU_TEST" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/ipcore_dir/RAM_int.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/D_FF.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/DigEnd.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/tri_state_buffer.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/register.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/decoder.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/SEQUENCER.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/register_bank.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/PROCESSOR_FSM.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/INST_DECODER.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/ALU.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/PROCESSING_UNIT.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/MMU.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/DP_MEM.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/CONTROL_UNIT.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/top_level.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package digeng
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity D_FF [d_ff_default]
+Compiling architecture behavioral of entity register_block [\register_block(16)\]
+Compiling architecture behavioral of entity ALU [\ALU(16)\]
+Compiling architecture behavioral of entity tri_state_buffer [\tri_state_buffer(16)\]
+Compiling architecture behavioral of entity decoder [\decoder(32)\]
+Compiling architecture behavioral of entity register_bank [\register_bank(32,5,16)\]
+Compiling architecture behavioral of entity PROCESSING_UNIT [processing_unit_default]
+Compiling architecture behavioral of entity INST_DECODER [\INST_DECODER(16,5)\]
+Compiling architecture behavioral of entity register_block [\register_block(8)\]
+Compiling architecture behavioral of entity SEQUENCER [\SEQUENCER(16)\]
+Compiling architecture behavioral of entity PROCESSOR_FSM [\PROCESSOR_FSM(16,32,5,4)\]
+Compiling architecture behavioral of entity CONTROL_UNIT [control_unit_default]
+Compiling package textio
+Compiling architecture behavioral of entity dist_mem_gen_v7_2 [\dist_mem_gen_v7_2("artix7",7,"0...]
+Compiling architecture ram_int_a of entity RAM_int [ram_int_default]
+Compiling architecture behavioral of entity DP_MEM [dp_mem_default]
+Compiling architecture behavioral of entity MMU [mmu_default]
+Compiling architecture behavioral of entity top_level [\top_level(16,32,5,4)\]
+Compiling architecture behavior of entity cpu_test
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 43 VHDL Units
+Built simulation executable D:/ISE Projects/Year 2/Computer Arch/CPUAct/CPU_TEST_isim_beh.exe
+Fuse Memory Usage: 40760 KB
+Fuse CPU Usage: 562 ms
